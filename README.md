@@ -18,4 +18,4 @@ In order to correctly run the bash scripts, the user must be in the parent direc
 
 ## Producing event lists from the ODFs
 
-It is recommended that these script files are stored in another directory, just for simplicity (for example, these could be stored in `~/xray/scripts/`). To run the xrr script, the terminal msut be set to the parent directory of the ODF folder, then simply enter 'bash `~/xray/scripts/xrr.sh`.
+It is recommended that these script files are stored in another directory, just for simplicity (for example, these could be stored in `~/xray/scripts/`). To run the xrr script, the terminal msut be set to the parent directory of the ODF folder, then simply enter `bash ~/xray/scripts/xrr.sh`.
