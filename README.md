@@ -1,8 +1,8 @@
 # XMM-Python
 
-Author: Ryan Le Roux
-Email: ryanleroux@live.co.za
+## Author: Ryan Le Roux
+## Email: ryanleroux@live.co.za
 
-Automated Bash and Python scripts that allow for reduction of ODFs (Orignal Data Files) obtained from the XMM observatory
+Automated Bash and Python scripts that allow for reduction of ODFs (Orignal Data Files) obtained from the XMM observatory.
 
-
+## Reducing of XMM data to obtain event lists
