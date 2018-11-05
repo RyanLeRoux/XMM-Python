@@ -22,4 +22,8 @@ In order to correctly run the bash scripts, the user must be in the parent direc
 
 It is recommended that these script files are stored in another directory, just for simplicity (for example, these could be stored in `~/xray/scripts/`, this directory will be used as an example). To run the xrr script, the terminal must be set to the parent directory of the ODF folder, then simply enter `bash ~/xray/scripts/xrr.sh`.
 
+It is required that the `HEADAS` and `SAS` directories are exported in the `.bashrc` file. This is explained when installing the `HEADAS` and `SAS` software, and is added by the user.
+
 ## Script procedure
+
+The script follows the same procedure found on the [SAS data analysis thread](https://www.cosmos.esa.int/web/xmm-newton/sas-threads)
