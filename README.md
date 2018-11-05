@@ -5,7 +5,7 @@
 
 Automated Bash and Python scripts that allow for reduction of ODFs (Orignal Data Files) obtained from the XMM observatory. Developed on Ubuntu 16.04 with Python 3.6. While the scripts may be strictly limited to the software and platform that it was developed on, it may be applied to any dataset obtained from the XMM archive.
 
-# Reducing of XMM data to obtain event lists
+## Prerequisite for scripts
 
 In order to use the automated bash scripts to reduce XMM data, it is first required that HEASOFT and SAS are installed. HEASOFT can be downloaded [here](https://heasarc.gsfc.nasa.gov/lheasoft/install.html), and SAS can be downloaded [here](https://www.cosmos.esa.int/web/xmm-newton/sas-download). These scripts work with Ubuntu 16.04 and HEASOFT 6.24, cross compatibility has not been tested.
 There is a single bash script (.sh file) that must be run in order to produce event lists, once that has been created, the other python scripts may be run. Before running any of these scripts, it is important to first state the directory layout, as these scripts are directory dependent. 
@@ -16,7 +16,7 @@ Archival XMM data can be downloaded [here](http://nxsa.esac.esa.int/nxsa-web/#se
 
 In order to correctly run the bash scripts, the user must be in the parent directory of the ODF file (for example, if the ODF files are in the directory `/home/user/xray/dataset/ODF/`, then the terminal must be in the directory `/home/user/xray/dataset/`). From this parent directory, begin by running the `xrr.sh` script, this is explained in the following section. 
 
-# Producing event lists & images from the ODFs using xrr.sh
+# 1) Producing event lists & images from the ODFs using xrr.sh
 
 ## How to run the script
 
@@ -63,5 +63,5 @@ Images are created for each band, for each camera. A 'full' image is also create
 
 ## Extracting source locations
 
-The task `edetect_chain` is performed (more information on this task can be found [here](https://www.cosmos.esa.int/web/xmm-newton/sas-thread-src-find)).
+The task `edetect_chain` is performed (more information on this task can be found [here](https://www.cosmos.esa.int/web/xmm-newton/sas-thread-src-find)), which locates regions where x-ray sources may be located. This task creates coordinate files, which are then stored in a new folder named `coords`. 
 
