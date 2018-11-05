@@ -16,6 +16,10 @@ Archival XMM data can be downloaded [here](http://nxsa.esac.esa.int/nxsa-web/#se
 
 In order to correctly run the bash scripts, the user must be in the parent directory of the ODF file (for example, if the ODF files are in the directory `~/xray/dataset/ODF/`, then the terminal must be in the directory `~/xray/dataset/`). From this parent directory, begin by running the `xrr.sh` script, this is explained in the following section. 
 
-## Producing event lists from the ODFs
+# Producing event lists from the ODFs using xrr.sh
 
-It is recommended that these script files are stored in another directory, just for simplicity (for example, these could be stored in `~/xray/scripts/`). To run the xrr script, the terminal msut be set to the parent directory of the ODF folder, then simply enter `bash ~/xray/scripts/xrr.sh`.
+## How to run the script
+
+It is recommended that these script files are stored in another directory, just for simplicity (for example, these could be stored in `~/xray/scripts/`, this directory will be used as an example). To run the xrr script, the terminal must be set to the parent directory of the ODF folder, then simply enter `bash ~/xray/scripts/xrr.sh`.
+
+## Script procedure
