@@ -58,7 +58,7 @@ After the user has inserted the appropriate values, `gtiset` files will be creat
 
 ## Creating images from the cleaned event lists
 
-There are 5 x-ray bands that is commonly used, these are:
+There are 5 standard X-ray XMM energy bands, these are:
 - 0.2 - 0.5 keV (band 1)
 - 0.5 - 1.0 keV (band 2)
 - 1.0 - 2.0 keV (band 3)
